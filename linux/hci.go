@@ -178,7 +178,7 @@ func (h *HCI) mainLoop() {
 
 func (h *HCI) handlePacket(b []byte) {
 
-	log.Printf("hci:[ % X]", b)
+	//log.Printf("hci:[ % X]", b)
 
 	t, b := packetType(b[0]), b[1:]
 	var err error
