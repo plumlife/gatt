@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tylerarnold/gatt/xpc"
+	"github.com/plumlife/gatt/xpc"
 )
 
 type device struct {

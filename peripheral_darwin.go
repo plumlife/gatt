@@ -3,7 +3,7 @@ package gatt
 import (
 	"log"
 
-	"github.com/tylerarnold/gatt/xpc"
+	"github.com/plumlife/gatt/xpc"
 )
 
 type peripheral struct {

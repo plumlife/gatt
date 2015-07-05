@@ -5,7 +5,7 @@ import (
 	"encoding/binary"
 	"errors"
 
-	"github.com/tylerarnold/gatt/linux/util"
+	"github.com/plumlife/gatt/linux/util"
 )
 
 type EventHandler interface {
